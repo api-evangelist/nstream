@@ -1,0 +1,26 @@
+generated: '2026-07-20'
+method: searched
+source: live probes of /.well-known/* on nstream.io and swimos.org
+notes: >-
+  No .well-known discovery documents are published. Nstream/SwimOS is a
+  streaming application framework (WARP over WebSocket), not a hosted REST
+  API, so there is no OpenID/OAuth discovery, api-catalog, security.txt, or
+  ai-plugin surface. Absence recorded as valid data; no WellKnown pointer
+  emitted because nothing is present.
+hosts:
+- host: https://www.nstream.io
+  documents:
+  - {path: /.well-known/security.txt, status: 404}
+  - {path: /.well-known/openid-configuration, status: 404}
+  - {path: /.well-known/oauth-authorization-server, status: 404}
+  - {path: /.well-known/api-catalog, status: 404}
+  - {path: /.well-known/ai-plugin.json, status: 404}
+  - {path: /llms.txt, status: 404}
+- host: https://www.swimos.org
+  documents:
+  - {path: /.well-known/security.txt, status: 404}
+  - {path: /.well-known/openid-configuration, status: 404}
+  - {path: /.well-known/oauth-authorization-server, status: 404}
+  - {path: /.well-known/api-catalog, status: 404}
+  - {path: /.well-known/ai-plugin.json, status: 404}
+  - {path: /llms.txt, status: 404}

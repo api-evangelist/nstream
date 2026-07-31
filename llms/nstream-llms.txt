@@ -1,0 +1,41 @@
+# Nstream
+
+> Nstream is the company behind SwimOS, an open-source platform for building streaming data applications. Rather than polling databases, SwimOS keeps application state continuously in memory as stateful "web agents" that ingest events from any source, compute in real time, and stream incremental updates to API clients and live user interfaces over the WARP protocol (multiplexed links over WebSocket). Nstream also offers a commercial platform and the Nstream Jet low-code tooling for building real-time apps for asset monitoring, fraud detection, customer 360, and business visibility.
+
+## Product & Docs
+
+- [Nstream](https://www.nstream.io/): Company home — the fastest way to build streaming data applications.
+- [Documentation](https://www.nstream.io/docs/): Nstream platform and Nstream Jet documentation.
+- [Nstream Jet](https://www.nstream.io/docs/nstream-jet/): Create streaming data apps with minimal code.
+- [Streaming APIs](https://www.nstream.io/streaming-apis/): Stream incremental updates to API clients.
+- [Stateful Services](https://www.nstream.io/stateful-services/): Turn streaming data into real-time state.
+- [Real-Time UIs](https://www.nstream.io/real-time-uis/): Interact with live data visualizations.
+- [Data Connectors](https://www.nstream.io/data-connectors/): Incorporate context from any source.
+- [Demos](https://www.nstream.io/demos/): Live streaming application demos.
+
+## SwimOS (open source)
+
+- [SwimOS](https://www.swimos.org/): Open-source runtime behind Nstream.
+- [SwimOS Tutorials](https://www.swimos.org/tutorials/): Getting started with SwimOS.
+- [SwimOS Backend](https://www.swimos.org/backend/): JVM / Rust streaming runtime docs.
+- [SwimOS Frontend](https://www.swimos.org/frontend/): Real-time UI toolkit docs.
+- [SwimOS on GitHub](https://github.com/swimos): swim-java, swim-js, swim-rust, swim-system-python.
+- [Nstream on GitHub](https://github.com/nstreamio): Nstream frontend stack (nstream-js).
+
+## SDKs & Packages
+
+- [org.swimos (Maven Central)](https://central.sonatype.com/namespace/org.swimos): 66 JVM artifacts (swim-server, swim-client, swim-warp) at v4.3.15.
+- [@swim/core (npm)](https://www.npmjs.com/package/@swim/core): JS/TS foundation framework.
+- [@swim/ui (npm)](https://www.npmjs.com/package/@swim/ui): Real-time UI toolkit.
+- [@nstream/nstream (npm)](https://www.npmjs.com/package/@nstream/nstream): Nstream frontend stack.
+- [swimos (crates.io)](https://crates.io/crates/swimos): Rust server runtime.
+- [swimos (PyPI)](https://pypi.org/project/swimos/): Python WARP streaming client.
+
+## Company
+
+- [Blog](https://www.nstream.io/blog/): Product and engineering updates.
+- [Press](https://www.nstream.io/press/): Announcements and press releases.
+- [Pricing](https://www.nstream.io/pricing/): Nstream platform pricing.
+- [Contact](https://www.nstream.io/contact/): Get in touch with the Nstream team.
+- [Terms & Conditions](https://www.nstream.io/terms-conditions/)
+- [Privacy Policy](https://www.nstream.io/privacy-policy/)

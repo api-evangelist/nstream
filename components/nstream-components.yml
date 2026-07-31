@@ -1,0 +1,51 @@
+generated: '2026-07-20'
+method: searched
+source: >-
+  npm @swim and @nstream scopes — client-side UI toolkits and the Nstream
+  single-pane-of-glass component stack for building real-time user interfaces.
+notes: >-
+  Nstream / SwimOS ship a substantial client-side UI component surface for
+  rendering live, streaming data. The @swim/* packages are the low-level
+  real-time UI toolkit; the @nstream/* packages are the higher-level
+  "single pane of glass" application stack (shell, GUI, widgets, geospatial
+  maps, entity model, session). Distinct from the server-side runtime SDKs
+  catalogued in packages/nstream-packages.yml.
+families:
+- family: SwimOS UI Toolkit
+  loader: npm @swim/ui, @swim/toolkit, @swim/core
+  description: >-
+    Low-level, dependency-free toolkit for pervasively real-time user
+    interfaces (views, controllers, animated properties, gauges, charts,
+    maps) that bind directly to streaming WARP links.
+  components:
+  - name: "@swim/ui"
+    url: https://www.npmjs.com/package/@swim/ui
+    description: User interface toolkit for pervasively real-time applications.
+  - name: "@swim/toolkit"
+    url: https://www.npmjs.com/package/@swim/toolkit
+    description: Framework for building pervasively real-time UI applications.
+- family: Nstream Frontend Stack (single pane of glass)
+  loader: npm @nstream/nstream
+  description: >-
+    Higher-level, entity-oriented application shell and reusable controllers
+    for building operational "single pane of glass" dashboards over streaming
+    Nstream/SwimOS backends.
+  components:
+  - name: "@nstream/shell"
+    url: https://www.npmjs.com/package/@nstream/shell
+    description: General-purpose entity-oriented application shell.
+  - name: "@nstream/gui"
+    url: https://www.npmjs.com/package/@nstream/gui
+    description: Single-pane-of-glass user interface metaphor.
+  - name: "@nstream/widget"
+    url: https://www.npmjs.com/package/@nstream/widget
+    description: Reusable widget controllers.
+  - name: "@nstream/atlas"
+    url: https://www.npmjs.com/package/@nstream/atlas
+    description: Geospatial map models and controllers.
+  - name: "@nstream/domain"
+    url: https://www.npmjs.com/package/@nstream/domain
+    description: Trait-based entity-relation metamodel.
+  - name: "@nstream/session"
+    url: https://www.npmjs.com/package/@nstream/session
+    description: User authentication, login session, and account management.

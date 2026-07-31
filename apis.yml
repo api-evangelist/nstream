@@ -1,8 +1,30 @@
 aid: nstream
 name: Nstream
-description: Nstream is a company surfaced as a portfolio company of dcvc and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Nstream is the company behind SwimOS, an open-source platform for building
+  streaming data applications. Instead of polling databases, Nstream keeps
+  application state continuously in memory as stateful "web agents" that
+  ingest events from any source, compute in real time, and stream incremental
+  updates to API clients and live user interfaces. The stack spans a JVM
+  runtime (SwimOS for Java), TypeScript/JavaScript UI toolkits, a Rust runtime
+  (swim-rust), and standalone WARP streaming clients, plus the commercial
+  Nstream Platform and Nstream Jet low-code tooling for building real-time
+  applications used in asset monitoring, fraud detection, customer 360, and
+  business visibility across retail, financial services, telecommunications,
+  and transportation & logistics.
 url: https://raw.githubusercontent.com/api-evangelist/nstream/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.nstream.io/assets/images/favicon.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,12 +33,61 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Streaming
+- Real-Time
+- Event Streaming
+- Stateful Services
+- Streaming APIs
+- Data Connectors
+- Open Source
+- WebSockets
+- SwimOS
 apis: []
+common:
+- type: DomainSecurity
+  url: security/nstream-domain-security.yml
+- type: Website
+  url: https://www.nstream.io/
+- type: DeveloperPortal
+  url: https://www.nstream.io/docs/
+- type: Documentation
+  url: https://www.nstream.io/docs/
+- type: Documentation
+  url: https://www.swimos.org/
+- type: GettingStarted
+  url: https://www.swimos.org/tutorials/
+- type: Blog
+  url: https://www.nstream.io/blog/
+- type: Support
+  url: https://www.nstream.io/contact/
+- type: Pricing
+  url: https://www.nstream.io/pricing/
+- type: TermsOfService
+  url: https://www.nstream.io/terms-conditions/
+- type: PrivacyPolicy
+  url: https://www.nstream.io/privacy-policy/
+- type: GitHubOrganization
+  url: https://github.com/swimos
+- type: GitHubOrganization
+  url: https://github.com/nstreamio
+- type: Packages
+  url: packages/nstream-packages.yml
+- type: SDKs
+  url: packages/nstream-packages.yml
+- type: Components
+  url: components/nstream-components.yml
+- type: LLMsTxt
+  url: llms/nstream-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 5
+  pass: local-v1

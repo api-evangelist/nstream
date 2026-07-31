@@ -1,0 +1,89 @@
+generated: '2026-07-20'
+method: searched
+source: >-
+  Maven Central (g:org.swimos), npm (@swim, @nstream scopes), crates.io
+  (swimos*), and PyPI (swimos) — all first-party SwimOS / Nstream libraries.
+notes: >-
+  Nstream builds on the open-source SwimOS platform. First-party client and
+  runtime libraries are published under the swimos org (Java/JS/Rust/Python)
+  and the Nstream frontend stack under the @nstream npm scope. Maven Central
+  hosts 66 org.swimos artifacts at v4.3.15; only the marquee entry points are
+  listed here.
+packages:
+# --- Java / JVM runtime (Maven Central, org.swimos, v4.3.15) ---
+- language: java
+  registry: maven-central
+  name: org.swimos:swim-server
+  url: https://central.sonatype.com/artifact/org.swimos/swim-server
+  install: 'implementation "org.swimos:swim-server:4.3.15"'
+  official: true
+  description: SwimOS stateful streaming application server (web agents runtime).
+- language: java
+  registry: maven-central
+  name: org.swimos:swim-api
+  url: https://central.sonatype.com/artifact/org.swimos/swim-server
+  install: 'implementation "org.swimos:swim-server:4.3.15"'
+  official: true
+  description: SwimOS web-agent / lane API surface for the JVM (part of swim-server).
+- language: java
+  registry: maven-central
+  name: org.swimos:swim-client
+  url: https://central.sonatype.com/artifact/org.swimos/swim-system
+  install: 'implementation "org.swimos:swim-system:4.3.15"'
+  official: true
+  description: SwimOS WARP streaming client for the JVM (part of swim-system).
+- language: java
+  registry: maven-central
+  name: org.swimos:swim-warp
+  url: https://central.sonatype.com/artifact/org.swimos/swim-warp
+  install: 'implementation "org.swimos:swim-warp:4.3.15"'
+  official: true
+  description: WARP streaming protocol implementation (multiplexed links over WebSocket).
+# --- JavaScript / TypeScript UI + client toolkit (npm, @swim scope) ---
+- language: javascript
+  registry: npm
+  name: "@swim/core"
+  url: https://www.npmjs.com/package/@swim/core
+  install: npm install @swim/core
+  official: true
+  description: Lightweight, dependency-free foundation framework for SwimOS JS apps.
+- language: javascript
+  registry: npm
+  name: "@swim/ui"
+  url: https://www.npmjs.com/package/@swim/ui
+  install: npm install @swim/ui
+  official: true
+  description: User interface toolkit for pervasively real-time applications.
+- language: javascript
+  registry: npm
+  name: "@swim/toolkit"
+  url: https://www.npmjs.com/package/@swim/toolkit
+  install: npm install @swim/toolkit
+  official: true
+  description: Framework for building pervasively real-time user interface applications.
+# --- Nstream frontend stack (npm, @nstream scope) ---
+- language: javascript
+  registry: npm
+  name: "@nstream/nstream"
+  url: https://www.npmjs.com/package/@nstream/nstream
+  install: npm install @nstream/nstream
+  official: true
+  description: Nstream Frontend Stack meta-package (single-pane-of-glass UI).
+# --- Rust runtime (crates.io, swimos) ---
+- language: rust
+  registry: crates.io
+  name: swimos
+  url: https://crates.io/crates/swimos
+  install: cargo add swimos
+  official: true
+  description: SwimOS server runtime for Rust (swim-rust).
+  version: 0.1.1
+# --- Python WARP client (PyPI, swimos) ---
+- language: python
+  registry: pypi
+  name: swimos
+  url: https://pypi.org/project/swimos/
+  install: pip install swimos
+  official: true
+  description: Standalone Python framework for building real-time streaming WARP clients.
+  version: 1.6.0a0

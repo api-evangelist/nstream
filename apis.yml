@@ -53,7 +53,7 @@ tags:
 - Stateful Services
 - Streaming APIs
 - Data Connectors
-- Open-Source
+- Open Source
 - WebSocket
 - SwimOS
 tags_raw:
@@ -67,6 +67,7 @@ tags_raw:
 - Open Source
 - WebSockets
 - SwimOS
+- Open-Source
 apis: []
 common:
 - type: DomainSecurity
